@@ -1,0 +1,71 @@
+:root {
+  wid: 250px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+#quote-box {
+  margin: 200px auto;
+  border-radius: 3px;
+  position: relative;
+  width: wid;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+}
+#quote-box .quote-text {
+  text-align: center;
+  width: wid;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+#quote-box .quote-author {
+  width: wid;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+#quote-box .buttons {
+  width: wid;
+  margin: auto;
+  display: block;
+}
+
+#quote-box .buttons .button#tweet-quote,
+#quote-box .buttons .button#tumblr-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+}
+#new-quote {
+  float: right;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+}
+
+.fa {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  color: white;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
